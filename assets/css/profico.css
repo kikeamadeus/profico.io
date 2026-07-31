@@ -1,0 +1,609 @@
+/* GENERAL */
+.input-field {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+#rowForm {
+    margin-bottom: 0;
+}
+.row {
+    margin-bottom: 0;
+}
+/*Busquedas*/
+#hidden {
+    display: none;
+}
+.btn-whatsapp {
+    background-color: #25d366;
+}
+.btn-whatsapp:hover {
+    background-color: #3ae57a;
+}
+.btn-whatsapp:focus {
+    background-color: #23b75b;
+}
+/* ============ HEADER ==================*/
+nav {
+    height: 80px;
+    line-height: 80px;
+    background-color: #ffffff;
+}
+nav .brand-logo {
+    font-size: 4.1rem;
+}
+.navbar-fixed {
+    height: 0px;
+}
+#navContainer {
+    width: 85%;
+}
+nav ul a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #333;
+}
+.btn-sesion {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 0 5px;
+    height: 32px;
+    line-height: 32px;
+}
+.btn-sesion:hover {
+    background-color: #4c4c4c;
+}
+nav ul a.btn, nav ul a.btn-large, nav ul a.btn-small, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
+    margin-top: -7px;
+}
+#dropDown_Menu {
+    top: 60px !important;
+    width: 160px !important;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#dropDown_Menu li>a, #dropDown_Menu li>span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+/* ============ intro ================*/
+#introSection {
+    background-image: url("../img/profico_background7.jpg");
+    background-size: cover;
+    height: 768px;
+}
+#introContainer {
+    width: 90%;
+}
+.introTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    padding-top: 260px;
+}
+.introSubtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    width: 45%;
+    line-height: 1.3;
+    margin-top: 5px;
+}
+.btn-intro {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    background-color: #ad7c4c;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 5px;
+    padding: 0 18px;
+}
+.btn-intro:hover {
+    background-color: #c28d5a;
+}
+.btn-intro:focus {
+    background-color: #8a5c2f;
+}
+/*==================== NOSOTROS =====================*/
+#usSection {
+    background-image: url("../img/profico_background2.jpg");
+    background-size: cover;
+    height: 768px;
+}
+#usContainer {
+    width: 85%;
+}
+#usRow {
+    padding-top: 70px;
+}
+#usImg {
+    border-radius: 8px;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 5px 5px 0 rgba(0, 0, 0, 0.2)
+}
+.usTitle {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 12rem;
+}
+.usText {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.btn-Info {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    background-color: #ad7c4c;
+    height: 32px;
+    line-height: 33px;
+    border-radius: 5px;
+    padding: 0 18px;
+}
+.btn-Info:hover {
+    background-color: #c28d5a;
+}
+.btn-Info:focus {
+    background-color: #c28d5a;
+}
+.usLink {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 8px;
+}
+#sabermas {
+    border-radius: 8px;
+}
+.modalTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.modalSubtitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.modalText {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: justify;
+    margin: 0;
+}
+/*============== PRODUCTOS =================*/
+#prodSection {
+    background-image: url("../img/profico_background3.jpg");
+    background-size: cover;
+    height: auto;
+}
+#prodContainer {
+    width: 95%;
+}
+.prodTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+#prodCard {
+    border-radius: 8px;
+}
+#prodImg {
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2)
+}
+.prodName {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0;
+    padding-top: 5px;
+}
+.card .card-content .skillName {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #8d8d93;
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+#rowLabel {
+    margin-bottom: 15px;
+}
+#prodRowRen1 {
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+#prodRowRen2 {
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+#prodCol {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#prodCategoria {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 25px;
+}
+#prodSubcategoria {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6rem;
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 25px;
+}
+.btn-cotizar {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    background-color: #ad7c4c;
+    height: 32px;
+    line-height: 33px;
+    border-radius: 5px;
+    padding: 0 18px;
+}
+.btn-cotizar:hover {
+    background-color: #c28d5a;
+}
+.btn-download {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    background-color: #ad7c4c;
+    height: 32px;
+    line-height: 33px;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+.btn-download:hover {
+    background-color: #c28d5a;
+}
+.material-tooltip {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    border-radius: 8px;
+    min-height: 30px;
+}
+.modalCotice {
+    border-radius: 8px;
+}
+.coticeModalTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.coticeTitleProduct {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.coticeTextProduct {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/*==================== FOOTER ====================*/
+#footerContainer {
+    width: 95%;
+}
+#footerLineContainer {
+    width: 90%;
+}
+.footer-copyright {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.page-footer {
+    padding-top: 0px;
+    background-color: #ad957f;
+}
+.footerTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footerText {
+    margin: 0;
+    display: inline;
+}
+iframe {
+    border-radius: 8px;
+}
+.iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 450px;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    margin-bottom: 25px;
+}
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+#inputNumber {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+#inputData {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+#textarea1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    height: 125px !important;
+    line-height: 10px;
+    text-align: center;
+}
+.btn-form {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 0 20px;
+    height: 32px;
+    line-height: 32px;
+}
+.btn-form:hover {
+    background-color: #4c4c4c;
+}
+#divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #865d37;
+}
+#imgFacebook {
+    width: 6%;
+}
+/*:::::::::::::: SECCIÓN DE NOSOTROS Y PERSONALIZACIÓN :::::::::::::::::*/
+#usheadSection {
+    background-image: url("../img/profico_background1.jpg");
+    background-size: cover;
+    height: 380px;
+}
+#usheadContainer {
+    width: 95%;
+}
+.usheadTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 5.2rem;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    color: #fff;
+    margin: 0;
+    padding-top: 170px;
+}
+#usInfoSection {
+    background-image: url("../img/profico_background3.jpg");
+    background-size: cover;
+    height: auto;
+}
+#usInfoContainer {
+    width: 95%;
+}
+#usInfoRow {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.usInfoTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+.usInfoText {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: justify;
+}
+#usInfoImg {
+    margin: 40px;
+    border-radius: 8px;
+}
+#cteSection {
+    background-image: url("../img/profico_background7.jpg");
+    background-size: cover;
+    height: auto;
+}
+#cteContainer {
+    width: 95%;
+}
+.cteTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#cteImg {
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+/*::::::::::::: SECCIÓN DE CATALOGOS Y SUS PRODUCTOS :::::::::::::::::::*/
+#prodlistSection {
+    background-image: url("../img/profico_background4.jpg");
+    background-size: cover;
+    height: 400px;
+}
+#prodlistContainer {
+    width: 90%;
+}
+.prodlistTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    padding-top: 150px;
+}
+.prodlistSubtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.btn-search {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    background-color: #ad7c4c;
+    height: 32px;
+    line-height: 33px;
+    border-radius: 5px;
+    padding: 0 18px;
+}
+.btn-search:hover {
+    background-color: #c28d5a;
+}
+#inputSearch {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #333;
+    border-radius: 8px;
+    height: 35px;
+    line-height: 35px;
+    width: 45%;
+}
+/*================ LISTA DE PRODUCTOS ==================*/
+.productsTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#productsSection {
+    background-image: url("../img/profico_background3.jpg");
+    background-size: cover;
+    height: auto;
+}
+#productsContainer {
+    width: 95%;
+}
+
+
+
+
+/*:::::::: ESTILO PARA EL ENVIO DE CORREOS :::::::::::::*/
+.emailBody {
+    background-image: url("../img/profico_background3.jpg");
+}
+#emailContainer {
+    width: 50%;
+}
+#emailCard {
+    margin-top: 10%;
+    border-radius: 8px;
+}
+#emailImg {
+    width: 50%;
+}
+.card .card-content .emailTitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
+.card .card-content .emailText {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.btn-email {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    background-color: #8a5c2f;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 5px;
+}
+.btn-email:hover {
+    background-color: #ad7c4c;
+}
+
+.card .card-content .errorEmailText {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #f64040;
+    margin-bottom: 10px;
+}
